@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Проверка электронной подписи</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1 class="mb">проверка электронной подписи</h1>
+            <div>
+                <button id="btnCheck" class="btn mb" onclick="checkList()">запустить проверку</button>
+            </div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <img class="list-group-img" src="img/gear.png">
+                    <div class="list-group-body">
+                        Проверка установки плагина
+                    </div>                   
+                </li>
+                <li class="list-group-item">
+                    <img class="list-group-img" src="img/gear.png">
+                    <div class="list-group-body">
+                        Проверка наличия сертификата
+                    </div>    
+                </li>
+                <li class="list-group-item">
+                    <img class="list-group-img" src="img/gear.png">
+                    <div class="list-group-body">
+                        Локальная проверка сертификата
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <img class="list-group-img" src="img/gear.png">
+                    <div class="list-group-body">
+                        Проверка соответствия сертификата на сервере ЭТП
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>   
+    <script src="js/main.js"></script>
+</body>
+</html>
